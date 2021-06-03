@@ -4,9 +4,9 @@ using System.Text;
 
 namespace eShopSolution.Data.Enums
 {
-    public enum Status
+    public enum TransactionStatus
     {
-        InActive,
-        Active
+        Success,
+        Failed
     }
 }
